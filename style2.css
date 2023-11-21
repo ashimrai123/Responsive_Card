@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background: var(--Header-text, #343d33);
+}
+
+body {
+  margin: 96px 181px;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 575px) {
+  .Discover {
+    color: var(--white, #fff);
+
+    /* text/large title */
+    font-family: Libre Baskerville;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 49.5px */
+    text-transform: capitalize;
+  }
+}
+
+.Lorem {
+  width: 401px;
+  color: var(--white, #fff);
+
+  /* text/default body */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+  padding-bottom: 32px;
+  padding-top: 16px;
+}
+
+.Learn {
+  display: inline-flex;
+  padding: 20px 40px;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid var(--white, #fff);
+}
+@media (min-width: 1024px) {
+  .container {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 89px;
+    padding-bottom: 80px;
+  }
+}
+
+.plant {
+  width: 534px;
+  height: 354px;
+  flex-shrink: 0;
+}
+
+.seats {
+  width: 1040px;
+  height: 409px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
